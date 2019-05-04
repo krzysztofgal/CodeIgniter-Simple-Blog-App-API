@@ -2,6 +2,7 @@
 	"description" : "The CodeIgniter Application with Composer",
 	"require": {
 		"php": ">=7.3",
+		"ext-json": "*",
 		"codeigniter/framework": "3.1.*"
 	},
 	"require-dev": {

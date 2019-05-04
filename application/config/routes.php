@@ -59,3 +59,6 @@ $route['logout'] = 'user/logout';
 $route['addPost'] = 'blog/addPost';
 $route['editPost'] = 'blog/editPost';
 $route['showPost'] = 'blog/showPost';
+
+$route['api/getPosts'] = 'api/getPosts';
+$route['api/getPost'] = 'api/getPost';

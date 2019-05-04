@@ -1,11 +1,3 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Login</title>
-</head>
-<body>
 <?php echo validation_errors(); ?>
 
 <?php if (isset($error_message)) :?>
@@ -23,6 +15,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <input type="submit" name="submit" value="Login" />
 
 </form>
-
-</body>
-</html>

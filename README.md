@@ -2,7 +2,7 @@
 
 # Features:
 - User Login
+- CRUD for blog posts
 
 # Todo:
-- CRUD for blog posts
 - API, get posts for logged user

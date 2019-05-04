@@ -21,7 +21,9 @@ class User extends CI_Controller {
             if (isset($this->session->userdata['logged_in'])){
                 redirect('/', 'refresh');
             } else {
+                $this->load->view('header');
                 $this->load->view('login');
+                $this->load->view('footer');
             }
         } else {
             $post = array(
@@ -39,9 +41,11 @@ class User extends CI_Controller {
 
                 redirect('/', 'refresh');
             } else {
+                $this->load->view('header');
                 $this->load->view('login', [
                     'error_message' => 'Invalid Username or Password'
                 ]);
+                $this->load->view('footer');
             }
         }
     }

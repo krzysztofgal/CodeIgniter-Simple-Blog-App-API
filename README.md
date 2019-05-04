@@ -1,8 +1,8 @@
 # CodeIgniter Simple Blog App with API
 
 # Features:
+- User Login
 
 # Todo:
-- User Login
 - CRUD for blog posts
 - API, get posts for logged user
